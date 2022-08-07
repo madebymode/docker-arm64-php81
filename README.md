@@ -2,10 +2,10 @@
 
 docker-compose.yml
 ```yaml
-  php8:
+  php81:
     platform: linux/arm64/v8
-    image: madebymode/php8-arm64-alpine
-    build: github.com/madebymode/docker-arm64-php80.git
+    image: madebymode/php81-arm64-alpine
+    build: github.com/madebymode/docker-arm64-php81.git
     ports:
       - "9000:9000"
     volumes:
