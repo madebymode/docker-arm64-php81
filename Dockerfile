@@ -1,4 +1,4 @@
-FROM php:8.0-fpm-alpine3.14
+FROM php:8.1-fpm-alpine3.14
 
 # Add Repositories
 RUN rm -f /etc/apk/repositories &&\
